@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  height: 90vh;
+  width: 92vw;
+  /* background-color: aliceblue; */
+  border-radius: 20px;
+  /* overflow: hidden; */
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.mainWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+  height: 75vh;
+  /* background-color: black; */
+}

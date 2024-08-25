@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sarabun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sankofa+Display&family=Sarabun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&family=Sankofa+Display&family=Sarabun&display=swap');
+
+header,
+nav {
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 5px -2px rgb(58, 58, 58);
+    /* overflow: hidden; */
+}
+
+header {
+    border-radius: 20px;
+    /* background-color: green; */
+    overflow: hidden;
+}
+
+nav {
+    height: 15vh;
+    /* box-shadow: 0px 0px 10px -1px grey; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.leftPanel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.rightPanel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightPanel>div,
+.rightPanel>input {
+    display: flex;
+    align-items: center;
+}
+
+.rightPanel svg {
+    font-size: 24px;
+}
+
+.rightPanel input {
+    height: 24px;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.rightPanelInput {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* padding: 5px; */
+    border: 1px solid grey;
+    /* Outline of the container */
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.rightPanelInput:focus-within {
+    outline: 1px solid black;
+    /* Outline when input is focused */
+}
+
+.rightPanelInput svg {
+    cursor: pointer;
+    border: none;
+}
